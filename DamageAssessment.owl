@@ -1,0 +1,1516 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://archive.org/services/purl/domain/damageassessment#"
+     xml:base="https://archive.org/services/purl/domain/damageassessment"
+     xmlns:damage="https://archive.org/services/purl/domain/damageassessment#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://archive.org/services/purl/domain/damageassessment#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#hasRange -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#hasRange"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasDamages -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasDamages"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasGauge -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasGauge"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasLocation"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasModel -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasModel"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasNumber -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasNumber"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasPropertiesFlooded -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasPropertiesFlooded"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasProperty"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasType -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasType"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#isAttachedto -->
+
+    <owl:ObjectProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#floodedQuantity -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#floodedQuantity"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#hasRangeValue -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#hasRangeValue">
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</xsd:maxExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#measuredIn -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#measuredIn"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#quantityFlooded -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageAssessment#quantityFlooded"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#hasDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#isAbout -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#isAbout"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#measures -->
+
+    <owl:DatatypeProperty rdf:about="https://archive.org/services/purl/domain/damageassessment#measures"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#All -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#All">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Code -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Code">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Number_Protected"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Other_FWA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Overlaps_Other_FWA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#River"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#AreaCode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDamages"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Damages"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasGauge"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Gauge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasModel"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasNumber"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasPropertiesFlooded"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">same as Site_Reference</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Commercial -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Commercial">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Critical -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Critical">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Damages -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Damages">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#measuredIn"/>
+                <owl:hasValue>(£)</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Damages_Avoided -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Damages_Avoided">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Damages"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Code"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Estimated_Damages -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Estimated_Damages">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Damages"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Gauge -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Gauge">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Code"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_1 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_1">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Range_Values"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRangeValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_2 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_2">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Range_Values"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRangeValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Max_Range_Value -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Max_Range_Value">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Range_Values"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRangeValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Min_Range_Value -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Min_Range_Value">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Range_Values"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRangeValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</xsd:minExclusive>
+                            </rdf:Description>
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Number_Protected -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Number_Protected">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Other_FWA -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Other_FWA">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Overlaps_Other_FWA -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Overlaps_Other_FWA">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#measuredIn"/>
+                <owl:hasValue>(m)</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Range_1 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Range_1">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRange"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Range_2 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Range_2">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRange"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Intermediate_Range_Value_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Range_Values -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Range_Values"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Range_max -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Range_max">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRange"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Max_Range_Value"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Range_min -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Range_min">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Properties_flooded_per_depth_band"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasRange"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Min_Range_Value"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#Residential -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#Residential">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#PropertiesFlooded"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageAssessment#River -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageAssessment#River">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#AreaCode -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#AreaCode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Depth -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Depth">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Model_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FZ2 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FZ2">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningZones"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FZ3 -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FZ3">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningZones"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloodWarningAreas -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreas">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloodWarningZoneParameters -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloodWarningZoneParameters"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloodWarningZones -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloodWarningZones">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloorArea -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloorArea">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloorLevel -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloorLevel">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#FloorLevelInfo -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#FloorLevelInfo">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Frism -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Frism">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Software"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Fwa_name -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Fwa_name">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Fwd_tacode -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Fwd_tacode">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#GaugeParameters -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#GaugeParameters">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Area -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Area">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Datum -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Datum">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_DefenceLevel -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_DefenceLevel">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Display -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Display">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Levels -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Levels">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Min -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Min">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Node -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Node">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;same as Station Node&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_PolyID -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_PolyID">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Gauge_Type -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Gauge_Type">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Level -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Level">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Model_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Location -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Location">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#MCMCode -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#MCMCode">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#MapInterval -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#MapInterval">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Model -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Model">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#ModelParameters -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Model_Contributor -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Model_Contributor">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Model_Dimension -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Model_Dimension">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Model_Name -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Model_Name">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Model_Type -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Model_Type">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Modelled_Max -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Modelled_Max">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Modelled_Min -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Modelled_Min">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PostCode -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PostCode">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PostTown -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PostTown">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Property -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Property">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PropertyCode -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PropertyCode">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Code"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningZones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Software"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasGauge"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Gauge"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasModel"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Model"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Property"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PropertyDefenceLevel -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PropertyDefenceLevel">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PropertyParameters -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#PropertyType -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#PropertyType">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Property_Levels -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Property_Levels">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyParameters"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q0d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q0d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q0g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q0g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q0p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q0p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q1000d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q1000d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q1000g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q1000g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q1000p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q1000p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q100d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q100d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q100p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q100p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q10d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q10d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q10p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q10p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q200d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q200d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q200g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q200g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q200p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q200p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q20d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q20d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q20g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q20g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q20p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q20p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q2d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q2d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q2g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q2g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q2p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q2p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q50d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q50d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q50p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q50p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q5d -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q5d">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#DamagesReturnPeriod"/>
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q5p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q5p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q75g -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q75g">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#GaugeReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Q75p -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Q75p">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#PropertyLevelReturnPeriod"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#ReturnPeriod -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#ReturnPeriod">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Damages"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageAssessment#Gauge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#isAttachedto"/>
+                        <owl:someValuesFrom rdf:resource="https://archive.org/services/purl/domain/damageassessment#Property_Levels"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Road_Length -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Road_Length">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageAssessment#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Software -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Software">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://archive.org/services/purl/domain/damageassessment#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Station_FW -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Station_FW">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#FloodWarningAreasParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#TimeCreated -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#TimeCreated">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#ModelParameters"/>
+    </owl:Class>
+    
+
+
+    <!-- https://archive.org/services/purl/domain/damageassessment#Depth/Level -->
+
+    <owl:Class rdf:about="https://archive.org/services/purl/domain/damageassessment#Depth/Level">
+        <rdfs:subClassOf rdf:resource="https://archive.org/services/purl/domain/damageassessment#Model_Type"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
