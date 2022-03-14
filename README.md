@@ -8,4 +8,4 @@ The unified model has been built using Semantic Web technologies and the extract
 
 A paper has been published on this work and the title is:
 
-A semantic approach to enable data integration for the domain of flood risk management
+"A semantic approach to enable data integration for the domain of flood risk management", Vatsala Nundloll, Rob Lamb, Barry Hankin, Gordon Blair,ScienceDirect, 2021  [sciencedirect.com/science/article/pii/S2667010021000433](paper link)
